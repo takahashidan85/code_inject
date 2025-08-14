@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.0.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.0.9" pages="2">
   <diagram name="Trang-1" id="vNifsrmQamGOLkUjOdwq">
     <mxGraphModel dx="778" dy="1637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -157,6 +157,81 @@
         </mxCell>
         <mxCell id="87PJ7_mTIpQ2_RzItXcB-49" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; ├── migrations&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ├── scripts&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;└── run_postgres.sh&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ├── src&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;├── api&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── controllers&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;└── ...&amp;nbsp; # controllers for the api&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── schemas&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;└── ...&amp;nbsp; # Marshmallow schemas&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── middleware.py&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── responses.py&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;└── requests.py&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;├── infrastructure&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── services&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;└── ...&amp;nbsp; # Services that use third party libraries or services (e.g. email service)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── databases&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;└── ...&amp;nbsp; # Database adapaters and initialization&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── repositories&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;└── ...&amp;nbsp; # Repositories for interacting with the databases&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;└── models&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;└── ...&amp;nbsp; # Database models&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;├── domain&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── constants.py&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── exceptions.py&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;├── models&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp;└── ...&amp;nbsp; # Business logic models&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;├── services&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;│&amp;nbsp; &amp;nbsp; └── ...&amp;nbsp; # Services for interacting with the domain (business logic)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;├── app.py&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;├── config.py&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;├── cors.py&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;├── create_app.py&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;├── dependency_container.py&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;├── error_handler.py&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; │&amp;nbsp; &amp;nbsp;└── logging.py&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="20" y="-430" width="680" height="550" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EGmKQFUeVbLTuv1gixp2" name="Trang-2">
+    <mxGraphModel dx="377" dy="1279" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qBWLErnLeSlJqgIt0iGw-1" value="REST API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="111" y="-491" width="90" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="qBWLErnLeSlJqgIt0iGw-2" value="Mạng máy tính&amp;nbsp;&lt;div&gt;http protocol&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="95.99999999999997" y="-454" width="135.67" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qBWLErnLeSlJqgIt0iGw-3" value="https://portal.ut.edu.vn/dashboard" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="74.5" y="-396.5" width="256" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="qBWLErnLeSlJqgIt0iGw-4" value="Methods (GET, POST, DELETE, PUT, PATCH)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="40" y="-360" width="347" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="qBWLErnLeSlJqgIt0iGw-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="qBWLErnLeSlJqgIt0iGw-5" target="qBWLErnLeSlJqgIt0iGw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBWLErnLeSlJqgIt0iGw-5" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="35" y="-297" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qBWLErnLeSlJqgIt0iGw-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="qBWLErnLeSlJqgIt0iGw-6" target="qBWLErnLeSlJqgIt0iGw-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBWLErnLeSlJqgIt0iGw-13" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;dashed=1;" edge="1" parent="1" source="qBWLErnLeSlJqgIt0iGw-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="67.66668701171875" y="-249" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBWLErnLeSlJqgIt0iGw-6" value="Web APP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="-317" width="115" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qBWLErnLeSlJqgIt0iGw-16" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NcBSXEnAg2h8LYPxoRDT-3" target="NcBSXEnAg2h8LYPxoRDT-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="417" y="-125.99996948242188" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qBWLErnLeSlJqgIt0iGw-7" value="Web API" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="-317" width="114" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qBWLErnLeSlJqgIt0iGw-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;dashed=1;" edge="1" parent="1" source="qBWLErnLeSlJqgIt0iGw-7" target="qBWLErnLeSlJqgIt0iGw-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBWLErnLeSlJqgIt0iGw-14" value="REQUEST" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="51.5" y="-314.5" width="95" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="qBWLErnLeSlJqgIt0iGw-15" value="RESPONSE" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="245.5" y="-242.5" width="107" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="NcBSXEnAg2h8LYPxoRDT-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.855;exitY=0;exitDx=0;exitDy=4.35;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;dashed=1;" edge="1" parent="1" source="NcBSXEnAg2h8LYPxoRDT-3" target="qBWLErnLeSlJqgIt0iGw-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NcBSXEnAg2h8LYPxoRDT-1" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="333" y="-105" width="173" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NcBSXEnAg2h8LYPxoRDT-4" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qBWLErnLeSlJqgIt0iGw-7" target="NcBSXEnAg2h8LYPxoRDT-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="-105" as="targetPoint" />
+            <mxPoint x="417" y="-237" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NcBSXEnAg2h8LYPxoRDT-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.855;exitY=0;exitDx=0;exitDy=4.35;exitPerimeter=0;entryX=1;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;dashed=1;" edge="1" parent="1" source="NcBSXEnAg2h8LYPxoRDT-1" target="NcBSXEnAg2h8LYPxoRDT-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="481" y="-101" as="sourcePoint" />
+            <mxPoint x="457" y="-249" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NcBSXEnAg2h8LYPxoRDT-3" value="SESSION" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="372.5" y="-192" width="89" height="31" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
